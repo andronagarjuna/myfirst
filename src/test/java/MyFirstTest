@@ -1,0 +1,13 @@
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class MyFirstTest{
+
+  @Test
+  public void test(){
+    MyFirst mf=new MyFirst();
+    String theName=mf.getName();
+    Assert.assertEquals("MyFirst",theName);
+  }
+}
